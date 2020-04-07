@@ -15,8 +15,9 @@ switch = True          # Boolean, true or false
 quotient = number / number_2 # Datatype ?? Float
 quotient2 = 4 / 2 # Datatype ?? float by default
 
+multiplication = 4 * 2 # multiplication use star
 # // gives integer division, i.e. the decimal is dropped
-quotient3 = 5 // 2 # Datatype ?? float
+quotient3 = 5 // 2 # Datatype ?? integer
 
 # conversions
 intConvert = int(4.9)  # int() converts to integer, ALWAYS ROUNDS DOWN
@@ -27,5 +28,6 @@ stringB = "world"
 
 concatString = stringA + " " + stringB
 
+# functions
 
 print(concatString)
